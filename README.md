@@ -3,10 +3,11 @@
 
 Classes : [ background, hair, eye, mouth, face, skin, clothes ]
 ## Model
-![model](https://user-images.githubusercontent.com/117014820/229328924-293b4af6-b491-41d0-ae1d-ec88eba4c0a3.jpg)
+![1_Xp3R17gR8PL0SA0inUplcg](https://user-images.githubusercontent.com/117014820/229331131-181bbe04-259f-4649-926c-c8916a5508e3.jpg)
 
 In: 3x512x512 -> Out: 7x512x512
-It use pretrained mobilenet_v2 as encoder
+
+It uses pretrained mobilenet_v2 as encoder
 ## References
 [1] <i>Deep Learning Project — Drawing Anime Face with Simple Segmentation Mask <a href="https://medium.com/@steinsfu/drawing-anime-face-with-simple-segmentation-mask-ca955c62ce09">link</a></i>
 
