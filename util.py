@@ -23,6 +23,7 @@ def img2seg(path):
     return dst.astype(np.float32)
 
 def seg2img(src):
+    src = np.moveaxis(src,0,2)
     dst = [[PALETTE[np.argmax(val)] for val in buf]for buf in src]
     
     return np.array(dst).astype(np.uint8)
